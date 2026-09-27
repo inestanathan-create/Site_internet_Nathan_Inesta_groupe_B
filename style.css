@@ -1,0 +1,76 @@
+p {
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 46px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+}
+
+img {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px black;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: right;
+    font-weight: normal;
+    text-align: justify;
+}
+
+ul {
+    font-size: 20px;
+}
+
+body{
+    background-image: url("1.webp");
+    background-position: center;
+    background-attachment: fixed;
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    display: block;
+    justify-content: space-between;
+}
+
+.film {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    gap: 60px;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
